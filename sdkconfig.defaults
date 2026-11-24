@@ -1,0 +1,5 @@
+# 1 ms tik: anten bekleme gibi kısa gecikmeler için gerekli (varsayılan 10 ms)
+CONFIG_FREERTOS_HZ=1000
+
+# Karttaki flash 4 MB
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y

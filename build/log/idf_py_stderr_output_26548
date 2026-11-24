@@ -1,0 +1,4 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\tools\python\v5.5.2\venv\Scripts\python.exe -DESP_PLATFORM=1 -DIDF_TARGET=esp32 -DCCACHE_ENABLE=0 D:\dev\RFID-YELEK
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository: C:/esp/v5.5.2/esp-idf/components/openthread/openthread/../../../.git/modules/components/openthread/openthread
