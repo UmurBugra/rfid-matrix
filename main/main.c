@@ -15,6 +15,7 @@
 static const gpio_num_t CS_PINS[] = {
     GPIO_NUM_21,   // Okuyucu 1
     GPIO_NUM_4,    // Okuyucu 2
+    GPIO_NUM_25,   // Okuyucu 3
 };
 #define READER_COUNT ((int)(sizeof(CS_PINS) / sizeof(CS_PINS[0])))
 
