@@ -11,11 +11,12 @@
 #define PIN_RST   GPIO_NUM_22   // tüm okuyucularda ortak
 
 // Her okuyucunun SDA pini. Yeni okuyucu eklemek için listeye pin ekleyin.
-// Önerilen sıra: 21, 4, 16, 17, 25, 26, 27, 32, 33
+// Kalan uygun pinler: 16, 17, 27, 32, 33
 static const gpio_num_t CS_PINS[] = {
     GPIO_NUM_21,   // Okuyucu 1
     GPIO_NUM_4,    // Okuyucu 2
-    GPIO_NUM_25,   // Okuyucu 3
+    GPIO_NUM_26,   // Okuyucu 3
+    GPIO_NUM_25,   // Okuyucu 4
 };
 #define READER_COUNT ((int)(sizeof(CS_PINS) / sizeof(CS_PINS[0])))
 

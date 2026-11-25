@@ -1,0 +1,8 @@
+Command: ninja all
+[1/4] C:\WINDOWS\system32\cmd.exe /C "cd /D D:\dev\RFID-YELEK\build\esp-idf\esptool_py && C:\Espressif\tools\python\v5.5.2\venv\Scripts\python.exe C:/esp/v5.5.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app D:/dev/RFID-YELEK/build/partition_table/partition-table.bin D:/dev/RFID-YELEK/build/rfid_yelek.bin"
+rfid_yelek.bin binary size 0x2f5b0 bytes. Smallest app partition is 0x100000 bytes. 0xd0a50 bytes (82%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] C:\WINDOWS\system32\cmd.exe /C "cd /D D:\dev\RFID-YELEK\build\bootloader\esp-idf\esptool_py && C:\Espressif\tools\python\v5.5.2\venv\Scripts\python.exe C:/esp/v5.5.2/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 D:/dev/RFID-YELEK/build/bootloader/bootloader.bin"
+Bootloader binary size 0x66c0 bytes. 0x940 bytes (8%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'
